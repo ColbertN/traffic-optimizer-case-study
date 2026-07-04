@@ -1,0 +1,66 @@
+{
+  "model_path": "C:\\Users\\Colbert Nekhumbe\\OneDrive\\Documents\\Quant Technical CaseStudy - Nedbank\\Technical CaseStudy Code\\models\\best_extra_trees_traffic_demand_pipeline.joblib",
+  "target": "target_vehicles_next_15m",
+  "n_trials": 1,
+  "best_model_name": "extra_trees",
+  "best_trial_number": 0,
+  "best_validation_rmse": 14.539089651588354,
+  "best_params": {
+    "use_weather": false,
+    "use_reliability": true,
+    "use_lag_features": true,
+    "use_robot_status": false,
+    "model_name": "extra_trees",
+    "et_n_estimators": 85,
+    "et_max_depth": 11,
+    "et_min_samples_leaf": 10,
+    "et_max_features": 1.0
+  },
+  "numeric_features": [
+    "hour",
+    "minute",
+    "hour_float",
+    "day_of_week",
+    "is_weekend",
+    "is_school_day",
+    "intersection_id",
+    "lanes",
+    "base_volume",
+    "current_vehicles",
+    "current_queue_length",
+    "taxi_ratio",
+    "non_compliance_rate",
+    "load_shedding_stage",
+    "special_event",
+    "robot_failed",
+    "pointsman_available",
+    "incident_flag",
+    "vehicles_lag_15m",
+    "vehicles_lag_1h",
+    "queue_lag_15m",
+    "rolling_1h_vehicles",
+    "rolling_1h_queue"
+  ],
+  "categorical_features": [
+    "direction",
+    "corridor",
+    "area_type"
+  ],
+  "metrics": {
+    "train_valid": {
+      "mae": 8.9753,
+      "rmse": 13.4627,
+      "r2": 0.9536
+    },
+    "test": {
+      "mae": 9.6697,
+      "rmse": 14.854,
+      "r2": 0.9446
+    }
+  },
+  "rows": {
+    "train": 48368,
+    "validation": 10368,
+    "test": 10368
+  }
+}

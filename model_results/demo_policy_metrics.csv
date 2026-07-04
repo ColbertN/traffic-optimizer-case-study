@@ -1,0 +1,4 @@
+policy,total_arrivals,throughput,throughput_rate,avg_wait_minutes_per_vehicle,max_queue,spillback_events,failed_robot_periods,pointsman_periods
+fixed,103984.0,88959.63,0.8555,76.344,2367.46,450,40,32
+adaptive,103984.0,92464.27,0.8892,60.621,1334.21,514,40,32
+failure_aware,103984.0,93067.86,0.895,58.382,1287.55,500,40,62

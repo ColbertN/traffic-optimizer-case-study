@@ -1,0 +1,2 @@
+number,value,datetime_start,datetime_complete,duration,params_et_max_depth,params_et_max_features,params_et_min_samples_leaf,params_et_n_estimators,params_model_name,params_use_lag_features,params_use_reliability,params_use_robot_status,params_use_weather,state
+0,14.539089651588354,2026-07-01 21:04:57.452838,2026-07-01 21:05:06.294746,0 days 00:00:08.841908,11,1.0,10,85,extra_trees,True,True,False,False,COMPLETE
