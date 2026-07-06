@@ -1,4 +1,8 @@
 # Failure-Aware Adaptive Robot Control For Gauteng Peak Traffic
+Humbulani Colbert Nekhumbe
+nekhumbecolbert3@gmail.com
+www.linkedin.com/in/humbulani-colbert-nekhumbe-12266b123
+https://github.com/ColbertN
 
 Part B technical case-study solution for **Problem 1: Smart Traffic Light Optimization**.
 
